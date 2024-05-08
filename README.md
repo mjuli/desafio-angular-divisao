@@ -1,28 +1,53 @@
-# MyApp
+# Desafio Angular Divisão
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Este é um projeto simples desenvolvido em Angular que implementa uma calculadora de divisão como parte de um desafio.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Realiza a divisão de dois números.
+- Lida com casos de divisão por zero.
+- Fornece uma interface simples para entrada de dados e exibição do resultado.
 
-## Code scaffolding
+## Requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Node.js](https://nodejs.org/) e [npm](https://www.npmjs.com/) instalados na sua máquina.
+- Angular CLI - Você pode instalá-lo globalmente usando o comando:
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-## Build
+## Como usar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone este repositório para o seu ambiente local:
 
-## Running unit tests
+```bash
+git clone https://github.com/mjuli/desafio-angular-divisao.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Navegue até o diretório do projeto:
 
-## Running end-to-end tests
+```bash
+cd desafio-angular-divisao
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Instale as dependências do projeto:
 
-## Further help
+```bash
+npm install
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# desafio-angular-divisao
+4. Inicie o servidor de desenvolvimento:
+
+```bash
+ng serve
+```
+
+5. A aplicação irá realizar o cálculo consultando um serviço externo que está salvo no repositório abaixo:
+```
+https://github.com/mjuli/desafio-dotnet-divisao
+```
+Desse modo, o serviço acima deverá estar sendo executado para que a aplicação funcione corretamente.
+
+6. Feito isso, abra um navegador da web e navegue até `http://localhost:4200/` para ver a aplicação em funcionamento.
+
+7. Insira dois números nos campos de entrada e clique no botão "Dividir" para ver o resultado da divisão.
